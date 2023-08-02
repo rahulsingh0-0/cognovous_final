@@ -1,0 +1,107 @@
+<section class="container-fluid navbar_outer_container">
+  <section class="container navbar_inner_container">
+    <section class="row justify-content-between">
+      <section class="col-6 navbar_left d-flex justify-content-center align-items-center">
+        <a href="index.html">
+          <img
+            class="col-md-8 col-lg-5"
+            style="margin-left: -6px !important"
+            src="./img/cognovus-logo.png"
+            width="270"
+            alt=""
+            srcset=""
+          />
+        </a>
+      </section>
+      <section class="col-6 navbar_right d-flex justify-content-end align-items-center">
+        <section class="handle_both">
+          <i class="fa fa-bars text-white hamburger_main" aria-hidden="true"></i>
+          <!-- <i class="fa fa-times cross_main" aria-hidden="true"></i> -->
+        </section>
+      </section>
+    </section>
+    <nav class="drop_down_nav container-fluid">
+      <ul class="p-0 text-right container">
+        <li>
+          <a
+            href="index.html"
+            class="nav-link animsition-link"
+            data-animsition-out-class="fade-out"
+            data-text="Home"
+            >Home</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="about-us.html"
+            class="nav-link animsition-link"
+            data-animsition-out-class="fade-out"
+            data-text="About"
+            >About</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="services.html"
+            class="nav-link animsition-link"
+            data-animsition-out-class="fade-out"
+            data-text="Services"
+            >Services</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="works.html"
+            class="nav-link animsition-link"
+            data-animsition-out-class="fade-out"
+            data-text="Works"
+            >Works</a
+          >
+        </li>
+        <li>
+          <a
+            href="clientele.html"
+            class="nav-link animsition-link"
+            data-animsition-out-class="fade-out"
+            data-text="Clientele"
+            >Clientele</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="contact-us.html"
+            class="nav-link animsition-link"
+            data-animsition-out-class="fade-out"
+            data-text="contact"
+            >contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </section>
+</section>
+
+<script>
+  $(document).ready(() => {
+    $(".hamburger_main").click(() => {
+      $(".fa-bars").toggleClass("fa-times");
+      $(".drop_down_nav").slideToggle();
+    });
+  });
+</script>
+<script>
+  window.addEventListener("scroll", function () {
+    var scrollPos = window.scrollY;
+    let navbar_select = document.querySelector(".navbar_loader");
+    // Print the scroll position to the console
+    if (scrollPos > 200) {
+      navbar_select.classList.add("sticky_navbar");
+    } else {
+      navbar_select.classList.remove("sticky_navbar");
+    }
+  });
+</script>

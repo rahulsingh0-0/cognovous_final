@@ -1,0 +1,334 @@
+@media (max-width: 600px) {
+  .menu {
+    padding-right: 0px !important;
+    margin-right: -80px !important;
+  }
+  .video_container_heading {
+    text-align: left !important;
+  }
+  .congnovus-brand-text {
+    margin-left: 0px !important;
+  }
+
+  .nav-toggle-btn {
+    color: #fff;
+  }
+
+  .body-menu-opened .nav-toggle-btn {
+    color: #fff !important;
+  }
+
+  .sub-titles {
+    font-size: 28px !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+  }
+
+  .sub-title-text {
+    font-size: 20px !important;
+    font-weight: 200 !important;
+    margin-top: -26px !important;
+    letter-spacing: 2px !important;
+  }
+
+  .home-brand-text {
+    font-size: 22px !important;
+  }
+
+  .services-heading-bg {
+    /* background-image: url('/img/cognovus/just.jpg'); */
+    background-color: #000;
+    padding-top: 50px;
+  }
+
+  .services-bg-img-dnone {
+    /* background-image: url('/img/cognovus/cogno-09.jpg'); */
+    /* background-color: #000 !important;
+        background-color: #000; */
+    display: none;
+  }
+
+  .services-bg-img-d-none {
+    display: block;
+  }
+
+  .mob-h1 {
+    font-size: 25px !important;
+  }
+
+  .head01 {
+    margin-top: -40px !important;
+  }
+
+  .services-points01 {
+    font-size: 18px !important;
+  }
+
+  .head02 {
+    margin-top: 50px !important;
+    font-size: 25px;
+    font-weight: 300 !important;
+  }
+
+  .head03 {
+    margin-top: -35px !important;
+  }
+
+  .services-btn {
+    margin-top: -35px !important;
+  }
+
+  .work-sec {
+    margin-top: -10px !important;
+  }
+
+  .footer .foot01 {
+    margin-top: 10px;
+  }
+
+  .footer .foot02 {
+    margin-top: 60px;
+  }
+
+  .footer .foot-info {
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+
+  .solution-num {
+    font-size: 30.03703704vmin;
+  }
+
+  .num20-mob-size {
+    font-size: 78px !important;
+  }
+
+  .bold-head01 {
+    font-weight: 550 !important;
+    font-size: 37px !important;
+    margin-top: 20px;
+  }
+
+  .ab-f-h1 {
+    font-weight: 550 !important;
+    font-size: 34px !important;
+    margin-top: 20px;
+    font-weight: 300 !important;
+  }
+
+  .fs18 {
+    font-size: 18px !important;
+  }
+
+  .mob-space {
+    margin-top: 10px;
+  }
+
+  .mob-top-space {
+    margin-top: -40px;
+  }
+
+  .head-text-style {
+    font-size: 16px !important;
+    margin-top: 9px !important;
+  }
+
+  .services-points {
+    font-size: 45px !important;
+  }
+
+  .works-spaces {
+    margin-left: 50px !important;
+    margin-top: 55px;
+  }
+
+  .work-descr {
+    margin-top: -50px;
+  }
+
+  .clients-spaces {
+    margin-top: 0px;
+    margin-left: 0px !important;
+  }
+
+  .mob-contact {
+    margin-top: -70px !important;
+  }
+
+  .desktop-map {
+    display: none;
+  }
+
+  .ipad-map {
+    display: none;
+  }
+
+  .mobile-map {
+    display: block;
+    margin-top: -20px;
+  }
+
+  .mob-con01 {
+    font-size: 20px;
+  }
+
+  .mob-con001 {
+    font-size: 20px;
+  }
+
+  .con-details {
+    margin-top: 8px !important;
+  }
+
+  .mob-h1 {
+    /* font-size: 20px !important; */
+    font-weight: 300 !important;
+    color: #fff !important;
+    margin-top: -8px !important;
+  }
+
+  .contact-social-links {
+    text-align: center;
+  }
+
+  .services-descrip {
+    font-size: 21px !important;
+  }
+
+  .mob-h1-rd {
+    margin-top: -50px !important;
+  }
+
+  .mob-h1-rd02 {
+    margin-top: 35px !important;
+  }
+
+  .mob-h1-rd03 {
+    margin-top: -25px !important;
+  }
+
+  .ipad-map {
+    display: none;
+  }
+
+  .pin-scene .promo-zoom-titles {
+    margin-left: 55px !important;
+  }
+
+  .works-pages {
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    padding-right: 0px !important;
+    margin-right: -58px !important;
+  }
+
+  /* .congnovus-brand-text {
+        margin-left: -63px !important;
+    } */
+
+  .home-brand-text {
+    font-size: 36px !important;
+    line-height: 46px;
+  }
+
+  .ipad-respo {
+    margin-top: 150px !important;
+  }
+
+  .services-bg-img {
+    background-image: url("/img/cognovus/cogno009.jpg");
+    background-position: top;
+    background-color: #000;
+    margin-top: -50px !important;
+  }
+
+  /* .foo-sections {
+        padding-top: 200px !important;
+    } */
+
+  .footer .foot-info {
+    padding-top: 0px;
+    padding-bottom: 35px;
+    margin-top: -25px !important;
+  }
+
+  /* .services-points {
+        font-size: 68px !important;
+    } */
+
+  .desktop-map {
+    display: none;
+  }
+
+  .ipad-map {
+    display: none;
+  }
+
+  .ipad-sizes {
+    margin-top: -10px !important;
+  }
+
+  .ipad-cspace {
+    margin-top: 60px !important;
+  }
+}
+
+/* Overriding on mobile view */
+@media (max-width: 1367px) {
+  .menu {
+    padding-right: 0px !important;
+    margin-right: -39px !important;
+  }
+
+  /* .congnovus-brand-text {
+        margin-left: -75px !important;
+    } */
+
+  .services-bg-img {
+    background-image: url("/img/cognovus/cogno013.jpg");
+    background-position: top;
+    background-color: #000;
+    /* margin-top: -50px !important; */
+  }
+
+  .footer .foot-info {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    margin-top: -25px !important;
+  }
+
+  .works-spaces {
+    /* margin-left: -65px !important; */
+    margin-left: 0px !important;
+    margin-top: 55px;
+  }
+
+  .works-spaces07 {
+    margin-left: -65px;
+  }
+
+  .works-pages {
+    margin-left: -50px !important;
+  }
+
+  .clients-spaces {
+    margin-top: 50px !important;
+    margin-left: 54px;
+  }
+
+  .ipad-cspace {
+    margin-top: 60px !important;
+  }
+
+  .ipad-sizes {
+    margin-top: -20px !important;
+  }
+
+  .pin-scene .promo-zoom-titles {
+    margin-left: -10px !important;
+  }
+}
