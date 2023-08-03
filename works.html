@@ -681,6 +681,26 @@
       $(".mySwiper").click(function (e) {
         e.stopPropagation();
       });
+      var lastScrollTop = 0;
+      window.addEventListener(
+        "scroll",
+        function () {
+          // or window.addEventListener("scroll"....
+          var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+          var containerHeight = $(".work_container").height();
+          if (st > lastScrollTop) {
+            // downscroll code
+            $(".navbar_loader").addClass("d-none");
+          }
+          if (st < lastScrollTop) {
+            // console.log("scrolling up");
+            $(".navbar_loader").removeClass("d-none");
+            // upscroll code
+          } // else was horizontal scroll
+          lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+        },
+        false
+      );
     </script>
   </body>
 </html>

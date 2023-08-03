@@ -3707,7 +3707,7 @@ a.btn-play i {
 
 @media (max-width: 575px) {
   .home-piling .container {
-    padding-right: 45px;
+    /* padding-right: 45px; */
   }
 }
 
@@ -8545,7 +8545,13 @@ body ul li {
   visibility: hidden;
 }
 .contact_conatiner {
-  padding: 2.4rem;
+  padding: 2rem;
+}
+.services {
+  padding: 0 2rem;
+}
+.clients-spaces {
+  margin: 0 !important;
 }
 h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
   font-size: 1.5rem !important;
@@ -8553,6 +8559,10 @@ h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
 @media (max-width: 821px) {
   .work_container {
     padding: 4.5rem;
+  }
+  .ipad-sizes {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -8564,5 +8574,21 @@ h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
 @media (max-width: 600px) {
   .work_container {
     padding: 3rem;
+  }
+  .__cf_email__ {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .email {
+    margin-top: 1rem !important;
+  }
+  .about_container {
+    padding: 0rem 4rem !important;
+  }
+  .services {
+    padding: 0 4rem;
+  }
+  .clients-spaces {
+    padding-left: 2.8rem !important;
   }
 }
