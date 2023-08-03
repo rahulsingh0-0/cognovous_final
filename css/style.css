@@ -8550,10 +8550,19 @@ body ul li {
 h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
   font-size: 1.5rem !important;
 }
+@media (max-width: 821px) {
+  .work_container {
+    padding: 4.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .work_container {
+    padding: 3rem;
+  }
+}
 
-.work_container {
-  padding: 0 !important;
-  @media (max-width: 1280px) {
-    padding: 6rem !important;
+@media (max-width: 600px) {
+  .work_container {
+    padding: 3rem;
   }
 }
