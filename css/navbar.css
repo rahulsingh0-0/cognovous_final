@@ -61,7 +61,7 @@
   display: none;
   position: absolute;
   width: 100%;
-  background-color: #000000;
+  /* background-color: #000000; */
   left: 0;
 }
 
@@ -92,6 +92,8 @@
 .third_section_text {
   font-size: clamp(3rem, 2.2rem, 6vw);
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 .third_row_container {

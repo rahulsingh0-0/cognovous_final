@@ -218,6 +218,12 @@
   .works-pages {
     margin-left: 0px !important;
   }
+  .mob-contact {
+    padding: 2.2rem;
+  }
+  h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
+    font-size: 1.9rem !important;
+  }
 }
 
 @media (max-width: 768px) {
