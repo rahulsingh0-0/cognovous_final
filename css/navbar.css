@@ -106,7 +106,7 @@
   background-color: black;
   min-height: calc(100vh - 5rem);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 778px) {
     background-image: url("../img/cognovus/cogno-09.jpg");
     background-repeat: no-repeat;
     background-position: 49% -8rem;
@@ -144,7 +144,8 @@
   z-index: 2;
   column-gap: clamp(12rem, 12rem, 10vw);
   row-gap: 4rem;
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 778px) {
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -160,6 +161,7 @@
 .grid_row_container .element h1 {
   font-size: clamp(2rem, 2.4rem, 3vw);
   text-transform: uppercase;
+  color: white;
 }
 
 .grid_row_container .element > :nth-last-child(1) {
@@ -167,11 +169,15 @@
   text-transform: uppercase;
 }
 
+.grid_row_container .element > :nth-last-child(1) > a {
+  color: white !important;
+}
+
 .grid_outer_container {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 778px) {
   .service_refer {
     display: block !important;
   }
