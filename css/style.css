@@ -3825,10 +3825,10 @@ a.btn-play i {
   margin-top: 0.25rem;
   /* background-image: url(../img/cognovus/white-texture.jpg); */
   background-color: #fff;
-  background-size: cover;
+  /* background-size: cover; */
   font-size: 18.03703704vmin;
   font-family: "Noto Sans Avestan", sans-serif;
-  line-height: 0.75;
+  /* line-height: 0.75; */
 }
 
 .solution-num > .inside {
@@ -8556,6 +8556,12 @@ body ul li {
 h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
   font-size: 1.5rem !important;
 }
+.always_design{
+  margin-bottom: 3.2rem !important;
+}
+.always_design2{
+  font-size: 2.5rem !important;
+}
 @media (max-width: 821px) {
   .work_container {
     padding: 4.5rem;
@@ -8564,6 +8570,8 @@ h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
     display: flex;
     flex-direction: column;
   }
+  .solution-num {
+  font-size: 20vmin;
 }
 @media (max-width: 768px) {
   .work_container {
@@ -8572,8 +8580,15 @@ h3.fs30.text-grey.mt30.wow.fadeInUp.mob-h1.address {
 }
 
 @media (max-width: 600px) {
+  .always_design{
+  margin-bottom: 4rem !important;
+  font-size: 1.6rem !important;
+}
+.always_design2{
+  font-size: 2.5rem !important;
+}
   .work_container {
-    padding: 3rem;
+    padding: 2.7rem;
   }
   .__cf_email__ {
     font-size: 2rem;
